@@ -25,7 +25,7 @@ class StopWatch(QWidget):
         hbox.addWidget(self.stop_button)
         hbox.addWidget(self.reset_button)
         
-        vbox.addLayout(hbox)  # butonları da ana layout’a ekle
+        vbox.addLayout(hbox)  # butonlar ana laylouta eklenecek.
         self.setLayout(vbox)
         
         self.time_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
